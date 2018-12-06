@@ -105,15 +105,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad4ab2bec7bf9cea587d2d9ecdcf7c6b0"><td class="memItemLeft" align="right" valign="top"><a id="ad4ab2bec7bf9cea587d2d9ecdcf7c6b0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>QQmlObjectListModel</b> (QObject *parent=Q_NULLPTR, const QByteArray &amp;displayRole=QByteArray(), const QByteArray &amp;uidRole=QByteArray())</td></tr>
 <tr class="separator:ad4ab2bec7bf9cea587d2d9ecdcf7c6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1174ed25592207388f0c18f43989c046"><td class="memItemLeft" align="right" valign="top"><a id="a1174ed25592207388f0c18f43989c046"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>setData</b> (const QModelIndex &amp;index, const QVariant &amp;value, int role)</td></tr>
-<tr class="separator:a1174ed25592207388f0c18f43989c046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbc284b812c68ff4d5302338a3d19f3d"><td class="memItemLeft" align="right" valign="top"><a id="afbc284b812c68ff4d5302338a3d19f3d"></a>
-QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> (const QModelIndex &amp;index, int role) const</td></tr>
-<tr class="separator:afbc284b812c68ff4d5302338a3d19f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee3210a2e7d565f4d0d4456e4f508030"><td class="memItemLeft" align="right" valign="top"><a id="aee3210a2e7d565f4d0d4456e4f508030"></a>
-QHash&lt; int, QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>roleNames</b> (void) const</td></tr>
-<tr class="separator:aee3210a2e7d565f4d0d4456e4f508030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e005cee676a6e70340b469a84421227"><td class="memItemLeft" align="right" valign="top"><a id="a5e005cee676a6e70340b469a84421227"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>setData</b> (const QModelIndex &amp;index, const QVariant &amp;value, int role) Q_DECL_FINAL</td></tr>
+<tr class="separator:a5e005cee676a6e70340b469a84421227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c686d90c43af479a8ca050a2fc5dc9"><td class="memItemLeft" align="right" valign="top"><a id="a23c686d90c43af479a8ca050a2fc5dc9"></a>
+QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> (const QModelIndex &amp;index, int role) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a23c686d90c43af479a8ca050a2fc5dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a345aebcf88b5d8780eee074c4ae81eb4"><td class="memItemLeft" align="right" valign="top"><a id="a345aebcf88b5d8780eee074c4ae81eb4"></a>
+QHash&lt; int, QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>roleNames</b> (void) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a345aebcf88b5d8780eee074c4ae81eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1e2a1f8761bad3f6a21e82d3ddfcf45"><td class="memItemLeft" align="right" valign="top"><a id="af1e2a1f8761bad3f6a21e82d3ddfcf45"></a>
 const_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> (void) const</td></tr>
 <tr class="separator:af1e2a1f8761bad3f6a21e82d3ddfcf45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,27 +132,27 @@ ItemType *&#160;</td><td class="memItemRight" valign="bottom"><b>at</b> (int idx
 <tr class="memitem:aaef9845f009b432fa84e4cb7182cc37b"><td class="memItemLeft" align="right" valign="top"><a id="aaef9845f009b432fa84e4cb7182cc37b"></a>
 ItemType *&#160;</td><td class="memItemRight" valign="bottom"><b>getByUid</b> (const QString &amp;uid) const</td></tr>
 <tr class="separator:aaef9845f009b432fa84e4cb7182cc37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e5be5ad1b22fb0bd2ccbe8e0328a8d6"><td class="memItemLeft" align="right" valign="top"><a id="a5e5be5ad1b22fb0bd2ccbe8e0328a8d6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>roleForName</b> (const QByteArray &amp;name) const</td></tr>
-<tr class="separator:a5e5be5ad1b22fb0bd2ccbe8e0328a8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af08f25e522468196d5151d9c3dc9e040"><td class="memItemLeft" align="right" valign="top"><a id="af08f25e522468196d5151d9c3dc9e040"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> (void) const</td></tr>
-<tr class="separator:af08f25e522468196d5151d9c3dc9e040"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4afaef6321ecaca71b68435a41083a1b"><td class="memItemLeft" align="right" valign="top"><a id="a4afaef6321ecaca71b68435a41083a1b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> (void) const</td></tr>
-<tr class="separator:a4afaef6321ecaca71b68435a41083a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6497a849db216206448cb6884e8a1512"><td class="memItemLeft" align="right" valign="top"><a id="a6497a849db216206448cb6884e8a1512"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEmpty</b> (void) const</td></tr>
-<tr class="separator:a6497a849db216206448cb6884e8a1512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94733ea52ee36786b9d91743bb854527"><td class="memItemLeft" align="right" valign="top"><a id="a94733ea52ee36786b9d91743bb854527"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>roleForName</b> (const QByteArray &amp;name) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a94733ea52ee36786b9d91743bb854527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab24f93ce93104abeb8486fd36ea0202c"><td class="memItemLeft" align="right" valign="top"><a id="ab24f93ce93104abeb8486fd36ea0202c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> (void) const Q_DECL_FINAL</td></tr>
+<tr class="separator:ab24f93ce93104abeb8486fd36ea0202c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7376dcc59e34a5e8b58e75eb9030eea6"><td class="memItemLeft" align="right" valign="top"><a id="a7376dcc59e34a5e8b58e75eb9030eea6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> (void) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a7376dcc59e34a5e8b58e75eb9030eea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe527669d5fe41ff53962c0608ca1bfb"><td class="memItemLeft" align="right" valign="top"><a id="abe527669d5fe41ff53962c0608ca1bfb"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEmpty</b> (void) const Q_DECL_FINAL</td></tr>
+<tr class="separator:abe527669d5fe41ff53962c0608ca1bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a276f5c4176d088c6acfd396ab186bd16"><td class="memItemLeft" align="right" valign="top"><a id="a276f5c4176d088c6acfd396ab186bd16"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>contains</b> (ItemType *item) const</td></tr>
 <tr class="separator:a276f5c4176d088c6acfd396ab186bd16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91146b9a6cabe133b7ba81b3bcda73a3"><td class="memItemLeft" align="right" valign="top"><a id="a91146b9a6cabe133b7ba81b3bcda73a3"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>indexOf</b> (ItemType *item) const</td></tr>
 <tr class="separator:a91146b9a6cabe133b7ba81b3bcda73a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba02f10f00c126636ba0615cda76ebff"><td class="memItemLeft" align="right" valign="top"><a id="aba02f10f00c126636ba0615cda76ebff"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> (void)</td></tr>
-<tr class="separator:aba02f10f00c126636ba0615cda76ebff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d0252f07c09efa964bcab815665432"><td class="memItemLeft" align="right" valign="top"><a id="a72d0252f07c09efa964bcab815665432"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> (void) Q_DECL_FINAL</td></tr>
+<tr class="separator:a72d0252f07c09efa964bcab815665432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebe47038424c8ddd105c77e8da9965d3"><td class="memItemLeft" align="right" valign="top"><a id="aebe47038424c8ddd105c77e8da9965d3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>append</b> (ItemType *item)</td></tr>
 <tr class="separator:aebe47038424c8ddd105c77e8da9965d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,15 +171,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>prepend</b> (const QL
 <tr class="memitem:ae47ccf93d3ddfb2cdc79c808a1393e61"><td class="memItemLeft" align="right" valign="top"><a id="ae47ccf93d3ddfb2cdc79c808a1393e61"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (int idx, const QList&lt; ItemType *&gt; &amp;itemList)</td></tr>
 <tr class="separator:ae47ccf93d3ddfb2cdc79c808a1393e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb023e17093361991921a23556f2193a"><td class="memItemLeft" align="right" valign="top"><a id="afb023e17093361991921a23556f2193a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>move</b> (int idx, int pos)</td></tr>
-<tr class="separator:afb023e17093361991921a23556f2193a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acca5df9b4fe61fda15f74291076da5de"><td class="memItemLeft" align="right" valign="top"><a id="acca5df9b4fe61fda15f74291076da5de"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>move</b> (int idx, int pos) Q_DECL_FINAL</td></tr>
+<tr class="separator:acca5df9b4fe61fda15f74291076da5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1f8635861b061f0057863d326cfba5a"><td class="memItemLeft" align="right" valign="top"><a id="ab1f8635861b061f0057863d326cfba5a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (ItemType *item)</td></tr>
 <tr class="separator:ab1f8635861b061f0057863d326cfba5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49855fbfe89fd2811f4dc45d0fbc5940"><td class="memItemLeft" align="right" valign="top"><a id="a49855fbfe89fd2811f4dc45d0fbc5940"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (int idx)</td></tr>
-<tr class="separator:a49855fbfe89fd2811f4dc45d0fbc5940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557e421df3cba2fc144451bb89a04e11"><td class="memItemLeft" align="right" valign="top"><a id="a557e421df3cba2fc144451bb89a04e11"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (int idx) Q_DECL_FINAL</td></tr>
+<tr class="separator:a557e421df3cba2fc144451bb89a04e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12a44357d8d12cf3efa616df0e43fb9e"><td class="memItemLeft" align="right" valign="top"><a id="a12a44357d8d12cf3efa616df0e43fb9e"></a>
 ItemType *&#160;</td><td class="memItemRight" valign="bottom"><b>first</b> (void) const</td></tr>
 <tr class="separator:a12a44357d8d12cf3efa616df0e43fb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,42 +189,42 @@ ItemType *&#160;</td><td class="memItemRight" valign="bottom"><b>last</b> (void)
 <tr class="memitem:a2a37e0b7b945122f444df4e79ffeafc1"><td class="memItemLeft" align="right" valign="top"><a id="a2a37e0b7b945122f444df4e79ffeafc1"></a>
 const QList&lt; ItemType * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>toList</b> (void) const</td></tr>
 <tr class="separator:a2a37e0b7b945122f444df4e79ffeafc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeb3cc8db9aad88533fd77cc67da3dc8"><td class="memItemLeft" align="right" valign="top"><a id="aeeb3cc8db9aad88533fd77cc67da3dc8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>append</b> (QObject *item)</td></tr>
-<tr class="separator:aeeb3cc8db9aad88533fd77cc67da3dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d335614c73c9bc49c79b53f85f10307"><td class="memItemLeft" align="right" valign="top"><a id="a6d335614c73c9bc49c79b53f85f10307"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>prepend</b> (QObject *item)</td></tr>
-<tr class="separator:a6d335614c73c9bc49c79b53f85f10307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba594f444932857a97976351e86bc5cc"><td class="memItemLeft" align="right" valign="top"><a id="aba594f444932857a97976351e86bc5cc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (int idx, QObject *item)</td></tr>
-<tr class="separator:aba594f444932857a97976351e86bc5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2bd67cd6d6269220d7a55f34bc7b041"><td class="memItemLeft" align="right" valign="top"><a id="ac2bd67cd6d6269220d7a55f34bc7b041"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (QObject *item)</td></tr>
-<tr class="separator:ac2bd67cd6d6269220d7a55f34bc7b041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ba9a50229ca36b9183a28a3008e06f0"><td class="memItemLeft" align="right" valign="top"><a id="a3ba9a50229ca36b9183a28a3008e06f0"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>contains</b> (QObject *item) const</td></tr>
-<tr class="separator:a3ba9a50229ca36b9183a28a3008e06f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2e6061ae7653dd1257b467e3e6a9ad6"><td class="memItemLeft" align="right" valign="top"><a id="ae2e6061ae7653dd1257b467e3e6a9ad6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>indexOf</b> (QObject *item) const</td></tr>
-<tr class="separator:ae2e6061ae7653dd1257b467e3e6a9ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e329e6be4e458c9e08c258ef121d20"><td class="memItemLeft" align="right" valign="top"><a id="aa0e329e6be4e458c9e08c258ef121d20"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>append</b> (QObject *item) Q_DECL_FINAL</td></tr>
+<tr class="separator:aa0e329e6be4e458c9e08c258ef121d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f93f40d6f9a6f62739f7f7cf274fe7"><td class="memItemLeft" align="right" valign="top"><a id="ab3f93f40d6f9a6f62739f7f7cf274fe7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>prepend</b> (QObject *item) Q_DECL_FINAL</td></tr>
+<tr class="separator:ab3f93f40d6f9a6f62739f7f7cf274fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa81420feb5e76ee012885e2d83edbc85"><td class="memItemLeft" align="right" valign="top"><a id="aa81420feb5e76ee012885e2d83edbc85"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (int idx, QObject *item) Q_DECL_FINAL</td></tr>
+<tr class="separator:aa81420feb5e76ee012885e2d83edbc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d00f9a1f5ee9be0078d8267f9c53a03"><td class="memItemLeft" align="right" valign="top"><a id="a3d00f9a1f5ee9be0078d8267f9c53a03"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (QObject *item) Q_DECL_FINAL</td></tr>
+<tr class="separator:a3d00f9a1f5ee9be0078d8267f9c53a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e4745eeaf227e6ba3ad6fec2a520b6"><td class="memItemLeft" align="right" valign="top"><a id="a60e4745eeaf227e6ba3ad6fec2a520b6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>contains</b> (QObject *item) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a60e4745eeaf227e6ba3ad6fec2a520b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee6f150191f332924a84ca2e1b49519"><td class="memItemLeft" align="right" valign="top"><a id="a2ee6f150191f332924a84ca2e1b49519"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>indexOf</b> (QObject *item) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a2ee6f150191f332924a84ca2e1b49519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7af0d156bc9e1c7aefb8f2b6d8975d7"><td class="memItemLeft" align="right" valign="top"><a id="ac7af0d156bc9e1c7aefb8f2b6d8975d7"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>indexOf</b> (const QString &amp;uid) const</td></tr>
 <tr class="separator:ac7af0d156bc9e1c7aefb8f2b6d8975d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d9f7f5c736976db4471fbaa35080c08"><td class="memItemLeft" align="right" valign="top"><a id="a4d9f7f5c736976db4471fbaa35080c08"></a>
-QObject *&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (int idx) const</td></tr>
-<tr class="separator:a4d9f7f5c736976db4471fbaa35080c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e861656917489c4512506867815304c"><td class="memItemLeft" align="right" valign="top"><a id="a4e861656917489c4512506867815304c"></a>
-QObject *&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const QString &amp;uid) const</td></tr>
-<tr class="separator:a4e861656917489c4512506867815304c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac64530617cc63ffd3e490198f32b2378"><td class="memItemLeft" align="right" valign="top"><a id="ac64530617cc63ffd3e490198f32b2378"></a>
-QObject *&#160;</td><td class="memItemRight" valign="bottom"><b>getFirst</b> (void) const</td></tr>
-<tr class="separator:ac64530617cc63ffd3e490198f32b2378"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ba1c39b8b7ce93bf24775cf223118f6"><td class="memItemLeft" align="right" valign="top"><a id="a7ba1c39b8b7ce93bf24775cf223118f6"></a>
-QObject *&#160;</td><td class="memItemRight" valign="bottom"><b>getLast</b> (void) const</td></tr>
-<tr class="separator:a7ba1c39b8b7ce93bf24775cf223118f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6124239db8dc2df97fb05ea0ea05226"><td class="memItemLeft" align="right" valign="top"><a id="ab6124239db8dc2df97fb05ea0ea05226"></a>
-QVariantList&#160;</td><td class="memItemRight" valign="bottom"><b>toVarArray</b> (void) const</td></tr>
-<tr class="separator:ab6124239db8dc2df97fb05ea0ea05226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca3cab1d79f3210370937748deb1092"><td class="memItemLeft" align="right" valign="top"><a id="aeca3cab1d79f3210370937748deb1092"></a>
+QObject *&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (int idx) const Q_DECL_FINAL</td></tr>
+<tr class="separator:aeca3cab1d79f3210370937748deb1092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a377066d00a7eff972bcb29ee2df5fd7a"><td class="memItemLeft" align="right" valign="top"><a id="a377066d00a7eff972bcb29ee2df5fd7a"></a>
+QObject *&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const QString &amp;uid) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a377066d00a7eff972bcb29ee2df5fd7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55dbf3501b9e889c26c39545601f91d"><td class="memItemLeft" align="right" valign="top"><a id="ae55dbf3501b9e889c26c39545601f91d"></a>
+QObject *&#160;</td><td class="memItemRight" valign="bottom"><b>getFirst</b> (void) const Q_DECL_FINAL</td></tr>
+<tr class="separator:ae55dbf3501b9e889c26c39545601f91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a53f867000ac75978cf3e31d9acbc06"><td class="memItemLeft" align="right" valign="top"><a id="a1a53f867000ac75978cf3e31d9acbc06"></a>
+QObject *&#160;</td><td class="memItemRight" valign="bottom"><b>getLast</b> (void) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a1a53f867000ac75978cf3e31d9acbc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cb4e94372ca1d44d2ef76e6fb4758aa"><td class="memItemLeft" align="right" valign="top"><a id="a0cb4e94372ca1d44d2ef76e6fb4758aa"></a>
+QVariantList&#160;</td><td class="memItemRight" valign="bottom"><b>toVarArray</b> (void) const Q_DECL_FINAL</td></tr>
+<tr class="separator:a0cb4e94372ca1d44d2ef76e6fb4758aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_q_qml_object_list_model_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_q_qml_object_list_model_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_q_qml_object_list_model_base.html">QQmlObjectListModelBase</a></td></tr>
 <tr class="memitem:af4b10113feedb1d4932062a3277ad58f inherit pub_methods_class_q_qml_object_list_model_base"><td class="memItemLeft" align="right" valign="top"><a id="af4b10113feedb1d4932062a3277ad58f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>QQmlObjectListModelBase</b> (QObject *parent=Q_NULLPTR)</td></tr>
@@ -232,18 +232,18 @@ QVariantList&#160;</td><td class="memItemRight" valign="bottom"><b>toVarArray</b
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ade95f52ab21faef06ce9b2f2ef596a9d"><td class="memItemLeft" align="right" valign="top"><a id="ade95f52ab21faef06ce9b2f2ef596a9d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>rowCount</b> (const QModelIndex &amp;parent=QModelIndex()) const</td></tr>
-<tr class="separator:ade95f52ab21faef06ce9b2f2ef596a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7e688b00fa839824f5f386f57a200ef"><td class="memItemLeft" align="right" valign="top"><a id="af7e688b00fa839824f5f386f57a200ef"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>rowCount</b> (const QModelIndex &amp;parent=QModelIndex()) const Q_DECL_FINAL</td></tr>
+<tr class="separator:af7e688b00fa839824f5f386f57a200ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a742cf638c6ea9ea7992ca2879e7006c0"><td class="memItemLeft" align="right" valign="top"><a id="a742cf638c6ea9ea7992ca2879e7006c0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>referenceItem</b> (ItemType *item)</td></tr>
 <tr class="separator:a742cf638c6ea9ea7992ca2879e7006c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e19044d9afa72f43e8fbd4c2ab27b4f"><td class="memItemLeft" align="right" valign="top"><a id="a4e19044d9afa72f43e8fbd4c2ab27b4f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dereferenceItem</b> (ItemType *item)</td></tr>
 <tr class="separator:a4e19044d9afa72f43e8fbd4c2ab27b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4e5fc0bbaf6c42e441e9147f49df9b4"><td class="memItemLeft" align="right" valign="top"><a id="ad4e5fc0bbaf6c42e441e9147f49df9b4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>onItemPropertyChanged</b> (void)</td></tr>
-<tr class="separator:ad4e5fc0bbaf6c42e441e9147f49df9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02489b763bb444019e493baa8a876371"><td class="memItemLeft" align="right" valign="top"><a id="a02489b763bb444019e493baa8a876371"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>onItemPropertyChanged</b> (void) Q_DECL_FINAL</td></tr>
+<tr class="separator:a02489b763bb444019e493baa8a876371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e5586bf88b578053d07f235fe1c684b"><td class="memItemLeft" align="right" valign="top"><a id="a1e5586bf88b578053d07f235fe1c684b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>updateCounter</b> (void)</td></tr>
 <tr class="separator:a1e5586bf88b578053d07f235fe1c684b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,7 +299,7 @@ class QQmlObjectListModel&lt; ItemType &gt;</h3>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 5 2018 21:53:41 for QQmlModel by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 6 2018 10:20:00 for QQmlModel by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

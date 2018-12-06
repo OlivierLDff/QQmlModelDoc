@@ -1,8 +1,6 @@
 var searchData=
 [
   ['qt_20qml_20models',['Qt QML Models',['../index.html',1,'']]],
-  ['qqmlgadgetlistmodel',['QQmlGadgetListModel',['../class_q_qml_gadget_list_model.html',1,'']]],
-  ['qqmlgadgetlistmodelbase',['QQmlGadgetListModelBase',['../class_q_qml_gadget_list_model_base.html',1,'']]],
   ['qqmlmodelversion',['QQmlModelVersion',['../class_q_qml_model_version.html',1,'']]],
   ['qqmlobjectlistmodel',['QQmlObjectListModel',['../class_q_qml_object_list_model.html',1,'']]],
   ['qqmlobjectlistmodelbase',['QQmlObjectListModelBase',['../class_q_qml_object_list_model_base.html',1,'']]],
